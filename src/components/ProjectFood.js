@@ -15,12 +15,12 @@ const ProjectFood = () => {
             </div>
 
             <div className={`flex flex-col bg-white ${screenize.width > 1000 ? '' : ''} justify-center items-center px-10 pt-10`}>
-                <div className='w-[50%]'>
-                    <div className={`flex justify-center items-center ${screenize.width > 1000 ? 'h-[25rem] w-[35rem]' : 'h-[15rem] w-[20rem]'}  border border-slate-100 rounded-3xl bg-stone-800 mb-6`}>
-                        <p className='text-yellow-500 text-4xl'>React Food</p>
+                <div className='w-full flex items-center justify-center'>
+                <div className={`flex justify-center items-center ${screenize.width > 1000 ? 'h-[25rem] w-[35rem]' : 'h-[10rem] w-[20rem]'}  border border-slate-100 rounded-3xl bg-stone-800 mb-6`}>
+                        <p className='text-yellow-500 text-4xl px-5'>React Food</p>
                     </div>
                 </div>
-                <div className={`flex flex-col gap-5 ${screenize.width > 1000 ? 'w-[50%]' : 'mt-[3%]'} `}>
+                <div className={`flex flex-col gap-5 ${screenize.width > 1000 ? 'w-[50%]' : 'mt-[3%]w-full'} `}>
                     <p className={`text-2xl font-bold `}>Project Overview</p>
                     <p className='text-md w-full text-justify'>This food order web app provides a convenient platform for users to browse, select, and order food from their favorite restaurants. This app utilizes React for the front-end, Redux Toolkit for state management, MongoDB with Mongoose for the database, and Tailwind CSS for styling. The app offers a seamless and intuitive user experience with a responsive design.</p>
                     <p className={`text-2xl font-bold `}> Features</p>
@@ -42,7 +42,7 @@ const ProjectFood = () => {
 
                     <div className='flex flex-col gap-4 rouunded-md my-6'>
                         <h1 className='text-md font-bold'>Tools used:</h1>
-                        <div className='flex gap-2'>
+                        <div className={`flex gap-2 ${screenize.width > 1000 ? '' : 'flex-wrap'}`}>
                             <button className='flex justify-center items-center h-[3rem] w-auto px-4 bg-gray-200 text-gray-600 uppercase text-xs rounded-md font-bold'>Html</button>
                             <button className='flex justify-center items-center h-[3rem] w-auto px-4 bg-gray-200 text-gray-600 uppercase text-xs rounded-md font-bold'>css</button>
                             <button className='flex justify-center items-center h-[3rem] w-auto px-4 bg-gray-200 text-gray-600 uppercase text-xs rounded-md font-bold'>react</button>
@@ -53,8 +53,8 @@ const ProjectFood = () => {
                     </div>
 
                     <div className='flex gap-2 mb-[6%]'>
-                       <button className={`bg-sky-500 py-3 px-5 w-auto ${screenize.width > 1000 && 'h-[3rem] w-[25%]'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}><a href='https://gilson96.github.io/react-food/'>see live</a></button>
-                        <Link to='/'><button className={`border border-sky-500 w-auto bg-white text-sky-500 py-3 px-5 ${screenize.width > 1000 && 'h-[3rem] w-[25%]'}  rounded text-md font-bold shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300`}>Go back</button></Link>
+                       <button className={`bg-sky-500 py-3 px-5 w-auto ${screenize.width > 1000 && 'h-[3rem] w-auto]'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}><a href='https://gilson96.github.io/react-food/'>see live</a></button>
+                        <Link to='/'><button className={`border border-sky-500 w-auto bg-white text-sky-500 py-3 px-5 ${screenize.width > 1000 && 'h-[3rem] w-auto'}  rounded text-md font-bold shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300`}>Go back</button></Link>
                     </div>
                 </div>
             </div>
