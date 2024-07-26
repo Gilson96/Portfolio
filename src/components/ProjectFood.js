@@ -54,7 +54,7 @@ const ProjectFood = () => {
                     </div>
 
                     <div className='flex gap-2 mb-[6%]'>
-                        <Link to='#/https://gilson96.github.io/react-food/'><button className={`bg-sky-500 py-3 px-5 w-auto ${screenize.width > 1000 && 'h-[3rem] w-[25%]'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}>see live</button></Link>
+                       <button className={`bg-sky-500 py-3 px-5 w-auto ${screenize.width > 1000 && 'h-[3rem] w-[25%]'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}><a href='https://gilson96.github.io/react-food/'>see live</a></button>
                         <Link to='/'><button className={`border border-sky-500 w-auto bg-white text-sky-500 py-3 px-5 ${screenize.width > 1000 && 'h-[3rem] w-[25%]'}  rounded text-md font-bold shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300`}>Go back</button></Link>
                     </div>
                 </div>
