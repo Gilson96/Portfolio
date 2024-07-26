@@ -24,7 +24,7 @@ const Menuu = () => {
                 <Avatar name='Gilson de Almeida' src={logo}/>
               </WrapItem>
             </Wrap>
-            <p id='logoFont'><a className='text-4xl' href='/'>Gilson de Almeida</a></p>
+            <p id='avatarFont'><a className='text-4xl' href='/'>Gilson de Almeida</a></p>
           </div>
           <div className='flex gap-4 font-bold text-xl'>
             <p className='hover:text-sky-500'><a href='#home'>Home</a></p>
