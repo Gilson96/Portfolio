@@ -24,10 +24,10 @@ const Menuu = () => {
                 <Avatar name='Gilson de Almeida' src={logo}/>
               </WrapItem>
             </Wrap>
-            <p id='avatarFont'><a className='text-4xl' href='/'>Gilson de Almeida</a></p>
+            <p id='avatarFont'><a className='text-4xl' href='#/'>Gilson de Almeida</a></p>
           </div>
           <div className='flex gap-4 font-bold text-xl'>
-            <p className='hover:text-sky-500'><a href='/'>Home</a></p>
+            <p className='hover:text-sky-500'><a href='#/'>Home</a></p>
             <p className='hover:text-sky-500'><a href='#about'>About</a></p>
             <p className='hover:text-sky-500'><a href='#projects'>Projects</a></p>
           </div>
@@ -38,7 +38,7 @@ const Menuu = () => {
             <Bars3Icon className='h-7 w-7' />
           </MenuButton>
           <MenuList className=''>
-            <MenuItem as={'a'} href='/'>Home</MenuItem>
+            <MenuItem as={'a'} href='#/'>Home</MenuItem>
             <Divider/>
             <MenuItem as={'a'} href='#about'>About</MenuItem>
             <Divider/>
