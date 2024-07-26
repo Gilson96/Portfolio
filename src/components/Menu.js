@@ -27,7 +27,7 @@ const Menuu = () => {
             <p id='avatarFont'><a className='text-4xl' href='/'>Gilson de Almeida</a></p>
           </div>
           <div className='flex gap-4 font-bold text-xl'>
-            <p className='hover:text-sky-500'><a href='#home'>Home</a></p>
+            <p className='hover:text-sky-500'><a href='/'>Home</a></p>
             <p className='hover:text-sky-500'><a href='#about'>About</a></p>
             <p className='hover:text-sky-500'><a href='#projects'>Projects</a></p>
           </div>
