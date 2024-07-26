@@ -34,8 +34,7 @@ const ProjectFood = () => {
                         <ListItem>Redux for global state management to handle user data and transactions.</ListItem>
                         <ListItem>Tailwind CSS and Chakra classes for styling components.</ListItem>
                         <ListItem>Node.js with Express for the server-side application.</ListItem>
-                        <ListItem>RESTful API endpoints, account management, and transactions.</ListItem>
-                        <ListItem>MongoDB collections for users, accounts, and transactions.</ListItem>
+                        <ListItem>MongoDB collections for foods.</ListItem>
                         <ListItem>Mongoose models for interacting with the MongoDB database.</ListItem>
                         <ListItem>Git for version control with a branching strategy for feature development.
                         </ListItem>
