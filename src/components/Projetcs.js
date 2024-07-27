@@ -24,7 +24,7 @@ const Projetcs = () => {
                     <p className={`text-2xl font-bold ${screenize.width < 1000 && 'text-center'}`}>Rocket-bank</p>
                     <p className='text-md w-full text-justify'>Rocket Bank is an online banking platform designed to enable users to manage user accounts effectively. Built using React for the front-end, Node.js for the back-end, and Redux for state management, this project demonstrates the integration of modern web technologies to create a responsive and user-friendly interface.</p>
 
-                    <button className={`bg-sky-500 py-3 px-2 ${screenize.width > 1000 ? 'h-[3rem] w-[25%]' : 'w-auto'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}><a href='#/food'>see more...</a></button>
+                    <button className={`bg-sky-500 py-3 px-2 ${screenize.width > 1000 ? 'h-[3rem] w-[25%]' : 'w-auto'}  rounded text-md font-bold text-white shadow-lg uppercase mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-sky-400 duration-300`}><a href='#/bank'>see more...</a></button>
                 </div>
             </div>
 
