@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.33023aa4.css",
-    "main.js": "/portfolio/static/js/main.ed5d60ee.js",
+    "main.css": "/portfolio/static/css/main.bc61b4ec.css",
+    "main.js": "/portfolio/static/js/main.cd344f1c.js",
     "static/media/native-movies.jpg": "/portfolio/static/media/native-movies.1a1216e37c32ea891b80.jpg",
     "static/media/mern.png": "/portfolio/static/media/mern.fc16af3a30ee91a229f9.png",
     "static/media/express.png": "/portfolio/static/media/express.cc0e71de8d58bf4f5aad.png",
@@ -14,11 +14,11 @@
     "static/media/native-foods.png": "/portfolio/static/media/native-foods.fe41babc5f31a83d3c95.png",
     "static/media/react-foods.png": "/portfolio/static/media/react-foods.23125d465aa12634d22f.png",
     "index.html": "/portfolio/index.html",
-    "main.33023aa4.css.map": "/portfolio/static/css/main.33023aa4.css.map",
-    "main.ed5d60ee.js.map": "/portfolio/static/js/main.ed5d60ee.js.map"
+    "main.bc61b4ec.css.map": "/portfolio/static/css/main.bc61b4ec.css.map",
+    "main.cd344f1c.js.map": "/portfolio/static/js/main.cd344f1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.33023aa4.css",
-    "static/js/main.ed5d60ee.js"
+    "static/css/main.bc61b4ec.css",
+    "static/js/main.cd344f1c.js"
   ]
 }
