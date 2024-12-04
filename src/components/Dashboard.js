@@ -17,7 +17,7 @@ export const HoverImageLinks = () => {
     return (
         <div className="bg-neutral-950 h-screen w-screen py-[2%] px-[5%]">
             <div className="h-[50%] p-[5%]">
-                <p className={`${screenSize.width < 700 ? 'mb-[20%]' : 'mb-[2%]'} text-[2rem] font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl `}>Hi <span className="text-white">I'm Gilson de Almeida</span></p>
+                <p className={`${screenSize.width < 700 ? 'mb-[20%]' : 'mb-[2%]'} text-2xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl `}>Hi <span className="text-white">I'm Gilson de Almeida</span></p>
                 
                 <MyLink
                     heading="About"
@@ -106,7 +106,7 @@ const MyLink = ({ heading, imgSrc, subheading, link }) => {
                                 staggerChildren: 0.075,
                                 delayChildren: 0.25,
                             }}
-                            className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+                            className="relative z-10 block text-2xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
                         >
                             {heading.split("").map((l, i) => (
                                 <motion.span
