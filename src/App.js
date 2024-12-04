@@ -1,20 +1,19 @@
 import './App.css';
-import Menu from './components/Menu'
+import HomePage from './components/HomePage'
+import { HoverImageLinks } from './components/Dashboard'
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projetcs'
-import ProjectBank from './components/ProjectBank'
-import ProjectFood from './components/ProjectFood'
+import Other from './components/Other'
 
 function App() {
   return (
-    <div className="bg-gray-100">
-      <Menu />
+    <div>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/bank' element={<ProjectBank />} />
-        <Route path='/food' element={<ProjectFood />} />
+        <Route path='/' element={<HoverImageLinks/>} />
+        <Route path='/about' element={<About />} />
+        <Route path='/project' element={<Projects />} />
+        <Route path='/other' element={<Other />} />
       </Routes>
 
     </div>

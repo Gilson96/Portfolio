@@ -40,9 +40,9 @@ const Menuu = () => {
           <MenuList className=''>
             <MenuItem as={'a'} href='#/'>Home</MenuItem>
             <Divider/>
-            <MenuItem as={'a'} href='#about'>About</MenuItem>
+            <MenuItem as={'a'} href='/about'>About</MenuItem>
             <Divider/>
-            <MenuItem as={'a'} href='#projects'>Projects</MenuItem>
+            <MenuItem as={'a'} href='/projects'>Projects</MenuItem>
           </MenuList>
         </Menu>
       }
