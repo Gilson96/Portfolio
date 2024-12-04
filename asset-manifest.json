@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf85de08.css",
-    "main.js": "/portfolio/static/js/main.0ef08cba.js",
-    "static/media/AvatarMaker-removebg-preview.png": "/portfolio/static/media/AvatarMaker-removebg-preview.eff6087d02d5af60af9f.png",
-    "static/media/gmail.png": "/portfolio/static/media/gmail.a2f2146f929409405da0.png",
-    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "main.css": "/portfolio/static/css/main.33023aa4.css",
+    "main.js": "/portfolio/static/js/main.ed5d60ee.js",
+    "static/media/native-movies.jpg": "/portfolio/static/media/native-movies.1a1216e37c32ea891b80.jpg",
+    "static/media/mern.png": "/portfolio/static/media/mern.fc16af3a30ee91a229f9.png",
+    "static/media/express.png": "/portfolio/static/media/express.cc0e71de8d58bf4f5aad.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.3e8bfd49bcd14e4661b6.jpg",
+    "static/media/android.png": "/portfolio/static/media/android.c592abd75fc743687193.png",
+    "static/media/react.png": "/portfolio/static/media/react.b07fea75a9edd29cb7a4.png",
+    "static/media/html.png": "/portfolio/static/media/html.45033f0b3eb3f6dedaae.png",
+    "static/media/css.png": "/portfolio/static/media/css.c6de9562cab13379dfa5.png",
+    "static/media/react-movies.png": "/portfolio/static/media/react-movies.5e0d4b6d4a41e22e95db.png",
+    "static/media/native-foods.png": "/portfolio/static/media/native-foods.fe41babc5f31a83d3c95.png",
+    "static/media/react-foods.png": "/portfolio/static/media/react-foods.23125d465aa12634d22f.png",
     "index.html": "/portfolio/index.html",
-    "main.bf85de08.css.map": "/portfolio/static/css/main.bf85de08.css.map",
-    "main.0ef08cba.js.map": "/portfolio/static/js/main.0ef08cba.js.map"
+    "main.33023aa4.css.map": "/portfolio/static/css/main.33023aa4.css.map",
+    "main.ed5d60ee.js.map": "/portfolio/static/js/main.ed5d60ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf85de08.css",
-    "static/js/main.0ef08cba.js"
+    "static/css/main.33023aa4.css",
+    "static/js/main.ed5d60ee.js"
   ]
 }
